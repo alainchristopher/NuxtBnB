@@ -1,7 +1,7 @@
 export default {
     components: true,
     head: {
-        titleTemplate: "Mastering Nuxt: %s",
+        titleTemplate: "Airbnb %s",
         htmlAttrs: {
             lang: "en"
         },
@@ -15,5 +15,5 @@ export default {
     router: {
         prefetchLinks: false,
     },
-    plugins:[ '~/plugins/maps.client' ]
+    // plugins:[ '~/plugins/maps.client' ]
 }
