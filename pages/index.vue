@@ -1,15 +1,15 @@
 <template>
-  <div>
-    <div
+  <b-row>
+    <b-col cols="4"
       v-for="home in homes"
       :key="home.objectID"
-      style="font-family: helvetica; float: Left; margin: 10px"
+      style="font-family: helvetica;"
     >
       <nuxt-link :to="`/home/${home.objectID}`" prefetch
         ><HomeCard :home="home"
       /></nuxt-link>
-    </div>
-  </div>
+    </b-col>
+  </b-row>
 </template>
 
 <script>

@@ -5,7 +5,7 @@ export default {
         htmlAttrs: {
             lang: "en"
         },
-        bodyAttrs:{
+        bodyAttrs: {
             class: ["my-style"]
         },
         meta: [{
@@ -16,4 +16,16 @@ export default {
         prefetchLinks: false,
     },
     // plugins:[ '~/plugins/maps.client' ]
+    // Modules (https://go.nuxtjs.dev/config-modules)
+    modules: [
+        // https://go.nuxtjs.dev/bootstrap
+        'bootstrap-vue/nuxt',
+
+    ],
+    // Only include the layout: https://bootstrap-vue.org/docs#nuxtjs-module
+    bootstrapVue: {
+        componentPlugins: [
+            'LayoutPlugin' // only include the layout
+        ],
+    },
 }

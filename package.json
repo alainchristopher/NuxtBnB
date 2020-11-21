@@ -1,8 +1,10 @@
-{"name":"mastering-nuxt",
+{
+  "name": "mastering-nuxt",
   "dependencies": {
+    "bootstrap-vue": "^2.19.0",
     "nuxt": "2.14.7"
   },
-  "scripts":{
+  "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start"
